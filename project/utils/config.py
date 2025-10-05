@@ -1,16 +1,6 @@
-url = "https://platzi.com/"
-access = "/html/body/main/div/header/div/div[2]/div[3]/button/span"
-user = "test_user"
-password = "12345"
-user_email_object = "user_email"
-user_password_object = "user_password"
-submitBtn = "submitBtn"
-task_menu = "ember76"
-new_task = '//*[@id="ember176"]'
-title = 'title'
-save_button = "div.right-buttons > button.primary"
-task_completed_button = 'checkable-circle'
-task_completed_object_message = "message"
-task_completed_message = "Good work!\n\nAll your tasks are completed"
-created_task_object = "I26t1"
-chromedriver = 'C:/Users/DELL/Desktop/SimplePractice_exam/SimplePractice/Scripts/chromedriver.exe'
+url = "http://localhost:8080/login"
+user_email_object = "j_username"
+user_password_object = "j_password"
+user = "francisco_isn"
+password = "868f62bb675a401e8d766344e42d75fd"
+submitBtn = "Submit"
