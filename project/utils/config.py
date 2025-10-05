@@ -4,3 +4,4 @@ user_password_object = "j_password"
 user = "francisco_isn"
 password = "868f62bb675a401e8d766344e42d75fd"
 submitBtn = "Submit"
+chromedriver = 'C:/Users/DELL/Desktop/SimplePractice_exam/SimplePractice/Scripts/chromedriver.exe'
