@@ -1,5 +1,5 @@
 from selenium.webdriver.common.by import By
-from utils.config import url, user, user_email_object, user_password_object, password, submitBtn
+from utils.config import url, user, user_email_object, user_password_object, password, submitBtn, pruebas_postman
 
 class logintest(object):
     def __init__(self, driver):
@@ -18,4 +18,7 @@ class logintest(object):
         user_field.send_keys(password)
         # Click on continue button
         continue_button = driver.find_element(By.NAME, submitBtn)
+        continue_button.click()
+        # Click on continue button
+        continue_button = driver.find_element(By.XPATH, pruebas_postman)
         continue_button.click()

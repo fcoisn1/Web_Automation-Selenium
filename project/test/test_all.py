@@ -18,7 +18,7 @@ class TestAll(unittest.TestCase):
     def testcase(self):
         login = logintest(self.driver)
         login.open_web()
-        time.sleep(10)
+        time.sleep(5)
 
     @classmethod
     def tearDownClass(cls):
