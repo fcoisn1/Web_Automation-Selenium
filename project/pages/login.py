@@ -20,5 +20,11 @@ class logintest(object):
         continue_button = driver.find_element(By.NAME, submitBtn)
         continue_button.click()
         # Click on continue button
+        texto = driver.find_element(By.XPATH, pruebas_postman).text
+        assert texto == "Proyecto Pruebas Postman", "El texto: Proyecto Pruebas Postman, no coincide con el esperado"        
+        print(texto)
         continue_button = driver.find_element(By.XPATH, pruebas_postman)
         continue_button.click()
+
+
+
