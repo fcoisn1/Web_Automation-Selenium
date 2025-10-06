@@ -30,7 +30,7 @@ Additional testing utilities
 
 📥 Installation & Setup
 
-Clone the Repository bash git clone https://github.com/fcoisn1/simplepractice_exam.git
+Clone the Repository bash git clone https://github.com/fcoisn1/Selenium_project.git
 
 Create Virtual Environment bash
 
